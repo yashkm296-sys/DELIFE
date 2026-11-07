@@ -103,7 +103,7 @@ sand_type = st.sidebar.selectbox(
     "Sand",
     options=["book", "custom"],
     format_func=lambda x: (
-        "Sand from Ghosh & Mallik Example 2.5"
+        "Standard Foundry Sand"
         if x == "book"
         else "Custom sand"
     ),
