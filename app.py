@@ -232,7 +232,7 @@ cpd = st.sidebar.number_input(
 # CALCULATIONS
 # ---------------------------------------------------------
 st.title("DEFLIFE: Casting Defect and Fatigue Life Analysis Tool")
-st.caption("Casting analysis, defect flags and fatigue life, version 1")
+st.caption("Casting analysis, defect flags and fatigue life")
 
 if smax <= smin:
     st.error(
